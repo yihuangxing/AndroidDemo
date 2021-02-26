@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    //选中的颜色-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#4ec8ff" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+
+    <!--    //默认的颜色-->
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="#22BAFF" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+</selector>
